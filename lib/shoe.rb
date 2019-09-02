@@ -9,6 +9,9 @@ class Shoe
  BRANDS << brand
 # BRANDS << brand.uniq
  end
+ def brands 
+   brands.each do |shoe|
+     shoe.uniq
  
 
   def cobble
