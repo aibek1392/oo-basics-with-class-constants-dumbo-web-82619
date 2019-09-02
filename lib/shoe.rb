@@ -12,6 +12,8 @@ class Shoe
  def brands 
    brands.each do |shoe|
      shoe.uniq
+   end
+ end
  
 
   def cobble
