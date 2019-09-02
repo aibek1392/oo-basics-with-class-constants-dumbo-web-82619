@@ -7,7 +7,7 @@ class Shoe
   @size =size
  @brand = brand
  BRANDS << brand
- BRANDS << size.uniq
+ BRANDS << size
 # BRANDS << brand.uniq
  end
 # def brands 
