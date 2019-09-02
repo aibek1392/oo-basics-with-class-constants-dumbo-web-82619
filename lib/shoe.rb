@@ -7,17 +7,9 @@ class Shoe
   @size =size
  @brand = brand
  BRANDS << brand
- BRANDS << size
-# BRANDS << brand.uniq
  end
-# def brands 
-#   brands.each do |shoe|
-#     shoe.uniq
-#   end
-# end
- 
 
-  def cobble
+ def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
