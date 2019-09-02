@@ -1,6 +1,6 @@
 class Shoe
-  attr_accessor :color,  :size, :material, :condition
-  attr_reader :brand 
+  attr_accessor :color,   :material, :condition
+  attr_reader :size, :brand 
    BRANDS = []
 
  def initialize(brand)
@@ -9,11 +9,11 @@ class Shoe
  BRANDS << brand
 # BRANDS << brand.uniq
  end
- def brands 
-   brands.each do |shoe|
-     shoe.uniq
-   end
- end
+# def brands 
+#   brands.each do |shoe|
+#     shoe.uniq
+#   end
+# end
  
 
   def cobble
