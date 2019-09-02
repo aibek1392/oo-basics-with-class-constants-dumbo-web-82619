@@ -1,10 +1,10 @@
 class Shoe
-  attr_accessor :color,  :material, :condition
-  attr_reader :size, :brands
+  attr_accessor :color,  :size, :material, :condition
+  attr_reader  :brands
    
 
- def initialize(size, brands)
- @size = size
+ def initialize( brands)
+
  @brands = brands
  end
  
