@@ -7,7 +7,6 @@ class Shoe
  
  @brand = brand
  BRANDS << brand
- BRANDS.uniq
  end
  
 
