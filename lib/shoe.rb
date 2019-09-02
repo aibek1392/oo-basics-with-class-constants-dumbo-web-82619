@@ -3,8 +3,8 @@ class Shoe
   attr_reader :size, :brand 
    BRANDS = []
 
- def initialize(brand,size)
-  @size =size
+ def initialize(brand)
+ 
  @brand = brand
  BRANDS << brand
  end
